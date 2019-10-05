@@ -14,14 +14,14 @@ def draw_rect(point_start, width_height, color, width_border):
     pygame.draw.rect(screen, rect_color, rect_point, rect_width)
 
 
-draw_rect((0, 0), (300, 300), 'White', 0)
+draw_rect((0, 0), (300, 300), 'Yellow', 0)
 draw_rect((10, 10), (10, 280), 'Black', 0)
 draw_rect((19, 20), (270, 51), 'Black', 1)
 draw_rect((19, 70), (270, 51), 'Black', 1)
 draw_rect((19, 120), (270, 51), 'Black', 1)
-# симпотичный комментарий
+draw_rect((20, 21), (268, 49), 'White', 0)
 draw_rect((20, 71), (268, 49), 'Blue', 0)
-
+draw_rect((20, 121), (268, 49), 'Red', 0)
 
 while pygame.event.wait().type != pygame.QUIT:
     pygame.display.flip()
