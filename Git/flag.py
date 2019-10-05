@@ -20,6 +20,8 @@ draw_rect((19, 20), (270, 51), 'Black', 1)
 draw_rect((19, 70), (270, 51), 'Black', 1)
 draw_rect((19, 120), (270, 51), 'Black', 1)
 
+draw_rect((20, 71), (268, 49), 'Blue', 0)
+
 
 while pygame.event.wait().type != pygame.QUIT:
     pygame.display.flip()
