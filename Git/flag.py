@@ -19,6 +19,7 @@ draw_rect((10, 10), (10, 280), 'Black', 0)
 draw_rect((19, 20), (270, 51), 'Black', 1)
 draw_rect((19, 70), (270, 51), 'Black', 1)
 draw_rect((19, 120), (270, 51), 'Black', 1)
+draw_rect((20, 21), (268, 49), 'Green', 0)
 
 
 while pygame.event.wait().type != pygame.QUIT:
